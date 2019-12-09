@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="WELCOME TO RENT ROBE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:translationX="70dp"
+        android:translationY="100dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEN"
+        android:translationX="200dp"
+        android:translationY="200dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WOMEN"
+        android:translationX="100dp"
+        android:translationY="150dp" />
+
+
+</LinearLayout>
