@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.rntrobe.R;
 
-import static com.example.rntrobe.R.layout.activity_selectcity;
+//import static com.example.rntrobe.R.layout.activity_selectcity;
 
 public class SelectcityActivity extends AppCompatActivity {
 
@@ -20,7 +20,7 @@ public class SelectcityActivity extends AppCompatActivity {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(activity_selectcity);
+        setContentView(R.layout.activity_selectcity);
         addListenerOnButton();
     }
 
